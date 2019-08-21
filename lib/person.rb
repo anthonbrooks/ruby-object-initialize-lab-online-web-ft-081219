@@ -2,12 +2,9 @@ class Person
   
   #attr_accessor :name
   
-  def initiailize(name)
+  def initialize(name)
     @name = name
   end
   
-  def name 
-    @name
-  end
-  
+
 end
